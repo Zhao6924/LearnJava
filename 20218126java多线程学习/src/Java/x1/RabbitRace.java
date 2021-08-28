@@ -1,6 +1,6 @@
 package Java.x1;
 class race implements Runnable{
-    private static String winner=null;
+    private String winner=null;
     private static int meters=0;
     @Override
     public void run() {
@@ -41,7 +41,7 @@ class race implements Runnable{
 }
 public class RabbitRace {
     public static void main(String[] args) {
-        new Thread(new race(),"兔子").start();
-        new Thread(new race(),"乌龟").start();
+        new Thread(new race(),"兔子1").start();
+        new Thread(new race(),"乌龟1").start();
     }
 }
