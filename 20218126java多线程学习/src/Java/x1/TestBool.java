@@ -11,26 +11,32 @@ class TV {
         this.flag=true;
     }
     public synchronized void Show() throws InterruptedException {
-        if (flag)this.wait();
-       {
-
+        Thread.sleep(1000);
+        //if (flag)this.wait();
+        if (!flag) {
             System.out.println("观众正在看" + this.show);
-            flag=!flag;
+            flag = !flag;
             this.notifyAll();
         }
+        else
+            this.wait();
 
     }
-    public synchronized void play(String show) throws InterruptedException {
-        if (!flag)this.wait();
-         {
-            {
 
+    public synchronized void play(String show) throws InterruptedException {
+        if (flag)
+
+            {
+                this.show = show;flag=!flag;
                 System.out.println("演员正在录制" + this.show);
+
                 this.notifyAll();
 
-                this.show = show;flag=!flag;
+
             }
-        }
+        else
+            this.wait();
+
 
 }}
 class Player implements Runnable{
@@ -40,9 +46,9 @@ class Player implements Runnable{
     }
     @Override
     public void run(){
-        for (int i=1;i<10;i++)
+        for (int i=0;i<10;i++)
         {
-
+            System.out.println(i);
             if (i%2==0)
             {
                 try {
@@ -85,7 +91,7 @@ public class TestBool {
         TV tv=new TV();
        Watcher w1=new Watcher(tv);
        Player p1=new Player(tv);
-       
+
         new Thread(p1).start();
        new Thread(w1).start();
 
