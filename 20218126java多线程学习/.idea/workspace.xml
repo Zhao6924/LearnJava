@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f4619cc-8e06-4fe5-b392-88e7429bbecc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../2021829网络通信/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021829网络通信/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021829网络通信/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021829网络通信/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021829网络通信/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021829网络通信/src/com/zlx/TestAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/.idea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/20218126java多线程学习/Java/x1/Mythread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20218126java多线程学习/Java/x1/Mythread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/x1/TestBool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/x1/TestBool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/20218126java多线程学习/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/20218126java多线程学习/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1xL6FAyOPErB7AMoTKH7cIx2OSR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestBool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.x1.TestBool" />
+      <module name="20218126java多线程学习" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.x1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestBool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f4619cc-8e06-4fe5-b392-88e7429bbecc" name="Changes" comment="" />
+      <created>1630121915153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630121915153</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
