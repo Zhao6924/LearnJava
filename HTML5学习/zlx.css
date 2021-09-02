@@ -1,0 +1,23 @@
+<style>
+.demo a{
+float:left;
+display:block;
+height:50px;
+width:50px;
+background:blue;
+border-radius:10px;
+text-align:center;
+margin-right:5px;
+}
+a[class ="link"]{
+float:left;
+display:block;
+height:50px;
+width:50px;
+background:blue;
+border-radius:10px;
+text-align:center;
+margin-right:5px;
+}
+
+</style>

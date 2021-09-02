@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+         .demo a{
+            display: block;
+            height: 50px;
+            width: 50px;
+            float:left;
+            border-radius: 10px;
+            background: blue;
+            text-align: center;
+            color: beige;
+            text-decoration: none;
+            margin-right: 5px;
+            font: bold 20px/50px Arial;
+        }
+         /*属性名，属性名=属性值（正则）
+         =表示绝对等于
+         *=表示包含
+         ^=表示以...开头
+         $=表示以...结尾
+         存在id属性的元素  a[]{}
+         */
+        /* a[id]{
+             background: red;
+         }*/
+
+         /*id=first的元素*/
+       /* a[id=first]{
+            background: aqua;
+        }*/
+
+        /*class中有links元素*/
+       /* a[class = "links item2 first2"]{
+            background: orange;
+        }*/
+        /*a[class*="links"]{
+            background: black ;
+        }*/
+        /*选中href中以http开头的元素*/
+        a[href^="http"]{
+            background: orange;
+        }
+    </style>
+
+</head>
+<body>
+<p class="demo">
+    <a href="http://www.baidu.com" class="links item first" id="first">1</a>
+    <a href="/adad/faf" class="links item2 first2" >2</a>
+    <a href="qwe123" class="links item3 first3" >3</a>
+    <a href="eweqe" class="links item4 first4" >4</a>
+    <a href="rrrrr" class="links item5 first5" >5</a>
+    <a href="ttt" class="links item6 first6" >6</a>
+    <a href="yyy" class="links item7 first7" >7</a>
+</p>
+</body>
+</html>
