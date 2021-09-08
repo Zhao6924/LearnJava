@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LearnSpring" />
+        <module name="SpringDi" />
+        <module name="Spring_zlx_autowired" />
       </profile>
     </annotationProcessing>
   </component>

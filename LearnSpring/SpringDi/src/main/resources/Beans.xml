@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id ="address" class="zlx.pojo.Address" />
+    <bean id="student" class="zlx.pojo.Student">
+        <!--普通值注入        -->
+        <property name="name" value="zhaoleixian"/>
+        <!-- collaborators and configuration for this bean go here -->
+        <!--bean注入-->
+        <property name="address" ref="address" />
+        <!--        -->
+        <property name="books">
+        <array>
+            <value>水浒传</value>
+        </array>
+        </property>
+    </bean>
+
+
+
+</beans>
