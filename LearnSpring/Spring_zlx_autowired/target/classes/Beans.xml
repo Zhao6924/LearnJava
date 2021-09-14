@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+   <bean id="cat" class="zlx.pojo.Cat"></bean>
+    <bean id="dog" class="zlx.pojo.Dog"></bean>
+    <bean id="people" class="zlx.pojo.People" autowire="byName">
+        <property name="name" value="zhaoleixian"></property>
+
+    </bean>
+
+</beans>
+
+
+
+
+

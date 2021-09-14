@@ -18,6 +18,7 @@ public class myproxy implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         seeHouse();
+        System.out.println(method.getName());
         Object result=method.invoke(rent,args);
         fare();
         return result;

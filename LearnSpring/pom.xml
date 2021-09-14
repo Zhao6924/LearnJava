@@ -12,6 +12,8 @@
     <module>Spring_zlx_autowired</module>
     <module>Springano</module>
       <module>SpringPrroxy</module>
+      <module>SpringAop</module>
+      <module>Springmabatis</module>
   </modules>
   <packaging>pom</packaging>
 

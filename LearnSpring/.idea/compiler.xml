@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Springano" />
+        <module name="SpringAop" />
         <module name="SpringPrroxy" />
         <module name="SpringDi" />
+        <module name="Springmabatis" />
         <module name="Spring_zlx_autowired" />
       </profile>
     </annotationProcessing>
