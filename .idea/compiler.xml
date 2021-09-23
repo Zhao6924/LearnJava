@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Springano" />
+        <module name="demoBoot" />
+        <module name="MyFirstMVC" />
+        <module name="Springmabatis" />
+        <module name="SpringPrroxy (1)" />
+        <module name="Spring_zlx_autowired" />
+        <module name="SpringDi" />
+        <module name="FirstSpringBoot" />
+        <module name="SpringMybatis" />
+        <module name="Annonation-MVC" />
+      </profile>
+      <profile name="Annotation profile for LearnSpring Maven Webapp" enabled="true">
+        <sourceOutputDir name="../SpringAop/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../SpringAop/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringPrroxy (2)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Annonation-MVC" target="16" />
+      <module name="demoBoot" target="16" />
+      <module name="FirstSpringBoot" target="11" />
+      <module name="LearnSpring" target="1.7" />
+      <module name="MyFirstMVC" target="16" />
+      <module name="Spring_zlx_autowired" target="16" />
+      <module name="Springano" target="16" />
+      <module name="SpringDi" target="16" />
+      <module name="Springmabatis" target="16" />
+      <module name="SpringMybatis" target="16" />
+      <module name="SpringPrroxy (1)" target="16" />
+      <module name="SpringPrroxy (2)" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FirstSpringBoot" options="-parameters" />
+      <module name="demoBoot" options="-parameters" />
+    </option>
+  </component>
+</project>

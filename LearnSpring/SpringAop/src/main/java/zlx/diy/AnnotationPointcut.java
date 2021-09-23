@@ -20,7 +20,7 @@ public class AnnotationPointcut {
     public void around(ProceedingJoinPoint jp) throws Throwable {
         System.out.println("环绕前");
 
-        System.out.println("签名:" + jp.getSignature());
+        System.out.println("签名:" + jp.getSignature()+jp.getArgs());
         //执行目标方法proceed
         Object proceed = jp.proceed();
         System.out.println("环绕后");

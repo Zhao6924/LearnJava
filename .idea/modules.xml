@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annonation-MVC/Annonation-MVC.iml" filepath="$PROJECT_DIR$/Annonation-MVC/Annonation-MVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstSpringBoot/FirstSpringBoot.iml" filepath="$PROJECT_DIR$/FirstSpringBoot/FirstSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LearnForJava.iml" filepath="$PROJECT_DIR$/.idea/LearnForJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSpring/LearnSpring.iml" filepath="$PROJECT_DIR$/LearnSpring/LearnSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstMVC/MyFirstMVC.iml" filepath="$PROJECT_DIR$/MyFirstMVC/MyFirstMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSpring/SpringDi/SpringDi.iml" filepath="$PROJECT_DIR$/LearnSpring/SpringDi/SpringDi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMybatis/SpringMybatis.iml" filepath="$PROJECT_DIR$/SpringMybatis/SpringMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSpring/SpringAop/SpringPrroxy (1).iml" filepath="$PROJECT_DIR$/LearnSpring/SpringAop/SpringPrroxy (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSpring/SpringPrroxy/SpringPrroxy (2).iml" filepath="$PROJECT_DIR$/LearnSpring/SpringPrroxy/SpringPrroxy (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSpring/Spring_zlx_autowired/Spring_zlx_autowired.iml" filepath="$PROJECT_DIR$/LearnSpring/Spring_zlx_autowired/Spring_zlx_autowired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSpring/Springano/Springano.iml" filepath="$PROJECT_DIR$/LearnSpring/Springano/Springano.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSpring/Springmabatis/Springmabatis.iml" filepath="$PROJECT_DIR$/LearnSpring/Springmabatis/Springmabatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoBoot/demoBoot.iml" filepath="$PROJECT_DIR$/demoBoot/demoBoot.iml" />
+    </modules>
+  </component>
+</project>
